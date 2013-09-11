@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # Airship ships both UA-prefixed ASI and SBJson, as well as un-prefixed
   # versions that are no longer used in the .xcodeproj.
   s.source_files = 'Airship/**/*.{h,m,c}'
-  s.exclude_files = '**/{google-toolbox-for-mac,json-framework,asi-http-request}/**/*'
+  s.exclude_files = '**/{google-toolbox-for-mac,json-framework,asi-http-request, fmdb}/**/*'
 
   s.dependency 'ZipArchive'
   s.dependency 'Reachability'
